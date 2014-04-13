@@ -1,0 +1,18 @@
+{% comment %}
+===============================================================================
+Author: (C) 2011 Oliver Gutierrez <ogutsua@evosistemas.com>
+Module: templates/evodjango/includes/formset.html
+Description: Form field include template
+===============================================================================
+{% endcomment %}
+
+<div class="formset_tabular">
+	{{ formset.management_form }}
+	{% for formsetform in formset %}
+		<div class="formwrapper">
+		{% for field in formsetform %}
+			{% include "evodjango/includes/form_field.html" with field=field %}
+		{% endfor %}
+		</div>
+	{% endfor %}
+</div>

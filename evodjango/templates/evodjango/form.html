@@ -1,0 +1,42 @@
+{% comment %}
+===============================================================================
+Author: (C) 2011 Oliver Gutierrez <ogutsua@evosistemas.com>
+Module: templates/evodjango/form.html
+Description: Form field include template
+===============================================================================
+{% endcomment %}
+
+{% load i18n %}
+
+<form id="{% firstof form_name form.form_name %}" method="{% firstof form_method form.form_method 'post' %}" action="{% firstof form_action form.form_action %}"{% if form.is_multipart %} enctype="multipart/form-data"{% endif %}>
+	{% csrf_token %}
+	{{ form.non_field_errors }}
+	{% for fieldset in form.get_fieldsets %}
+		<fieldset id="{% firstof form_name form.form_name %}_{{ fieldset.id }}" {% if fieldset.classes %}class="{{ fieldset.classes|join:" " }}"{% endif %}>
+			{% if fieldset.name %}<p class="form_fieldset_name">{{ fieldset.name }}</p>{% endif %}
+			{% if fieldset.desc %}<p class="form_fieldset_desc">{{ fieldset.desc|safe }}</p>{% endif %}
+			{% for field in fieldset.fields %}
+				{% include "evodjango/includes/form_field.html" with field=field %}
+			{% endfor %}
+		</fieldset>
+	{% empty %}
+		{% for field in form %}
+			{% include "evodjango/includes/form_field.html" with field=field %}
+		{% endfor %}
+	{% endfor %}
+	
+	{% for formset in fieldset.formsets %}
+		{% include "evodjango/includes/formset.html" with formset=formset %}
+	{% endfor %}
+
+	{# Extra HTML in the form #}
+	{{ extra_html }}
+	
+	{# Next field commonly used in auth forms #}
+	{% if next %}<input type="hidden" name="next" value="{{ next }}" />{% endif %}
+	
+	<div id="submitrow_{% firstof form_name form.form_name %}" class="submitrow">
+		<input id="submit_{% firstof form_name form.form_name %}" type="submit" name="submit_button"{% if submit_label or form.submit_label %} value="{% firstof submit_label form.submit_label %}"{% endif%}{% if form.ajax %} onclick="{{ form.get_ajax_call }}"{% endif %} />
+		{% if form.show_reset %}<input id="reset_{% firstof form_name form.form_name %}" type="reset" name="reset_button" value="{{ form.reset_label }}" />{% endif %}
+	</div>
+</form>

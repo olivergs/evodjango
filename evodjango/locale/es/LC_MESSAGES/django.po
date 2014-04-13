@@ -1,0 +1,2138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: EVODjango 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-26 14:39+0100\n"
+"PO-Revision-Date: 2013-07-25 10:56-0000\n"
+"Last-Translator: Oliver Gutiérrez <oliver@alpuca.com>\n"
+"Language-Team: Oliver Gutiérrez <ogutsua@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: enums.py:19
+msgid "Male"
+msgstr "Hombre"
+
+#: enums.py:20
+msgid "Female"
+msgstr "Mujer"
+
+#: enums.py:27
+msgid "Mr."
+msgstr "Sr."
+
+#: enums.py:28
+msgid "Mrs."
+msgstr "Srta."
+
+#: enums.py:29
+msgid "Ms."
+msgstr "Sra."
+
+#: enums.py:36
+msgid "Afghanistan"
+msgstr ""
+
+#: enums.py:37
+msgid "Aland Islands"
+msgstr ""
+
+#: enums.py:38
+msgid "Albania"
+msgstr ""
+
+#: enums.py:39
+msgid "Algeria"
+msgstr ""
+
+#: enums.py:40
+msgid "American Samoa"
+msgstr ""
+
+#: enums.py:41
+msgid "Andorra"
+msgstr ""
+
+#: enums.py:42
+msgid "Angola"
+msgstr ""
+
+#: enums.py:43
+msgid "Anguilla"
+msgstr ""
+
+#: enums.py:44
+msgid "Antarctica"
+msgstr ""
+
+#: enums.py:45
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: enums.py:46
+msgid "Argentina"
+msgstr ""
+
+#: enums.py:47
+msgid "Armenia"
+msgstr ""
+
+#: enums.py:48
+msgid "Aruba"
+msgstr ""
+
+#: enums.py:49
+msgid "Australia"
+msgstr ""
+
+#: enums.py:50
+msgid "Austria"
+msgstr ""
+
+#: enums.py:51
+msgid "Azerbaijan"
+msgstr ""
+
+#: enums.py:52
+msgid "Bahamas"
+msgstr ""
+
+#: enums.py:53
+msgid "Bahrain"
+msgstr ""
+
+#: enums.py:54
+msgid "Bangladesh"
+msgstr ""
+
+#: enums.py:55
+msgid "Barbados"
+msgstr ""
+
+#: enums.py:56
+msgid "Belarus"
+msgstr ""
+
+#: enums.py:57
+msgid "Belgium"
+msgstr ""
+
+#: enums.py:58
+msgid "Belize"
+msgstr ""
+
+#: enums.py:59
+msgid "Benin"
+msgstr ""
+
+#: enums.py:60
+msgid "Bermuda"
+msgstr ""
+
+#: enums.py:61
+msgid "Bhutan"
+msgstr ""
+
+#: enums.py:62
+msgid "Bolivia"
+msgstr ""
+
+#: enums.py:63
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: enums.py:64
+msgid "Botswana"
+msgstr ""
+
+#: enums.py:65
+msgid "Bouvet Island"
+msgstr ""
+
+#: enums.py:66
+msgid "Brazil"
+msgstr ""
+
+#: enums.py:67
+msgid "British indian ocean territory"
+msgstr ""
+
+#: enums.py:68
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: enums.py:69
+msgid "Bulgaria"
+msgstr ""
+
+#: enums.py:70
+msgid "Burkina Faso"
+msgstr ""
+
+#: enums.py:71
+msgid "Burundi"
+msgstr ""
+
+#: enums.py:72
+msgid "Cambodia"
+msgstr ""
+
+#: enums.py:73
+msgid "Cameroon"
+msgstr ""
+
+#: enums.py:74
+msgid "Canada"
+msgstr ""
+
+#: enums.py:75
+msgid "Cape Verde"
+msgstr ""
+
+#: enums.py:76
+msgid "Cayman Islands"
+msgstr ""
+
+#: enums.py:77
+msgid "Central African Republic"
+msgstr ""
+
+#: enums.py:78
+msgid "Chad"
+msgstr ""
+
+#: enums.py:79
+msgid "Chile"
+msgstr ""
+
+#: enums.py:80
+msgid "China"
+msgstr ""
+
+#: enums.py:81
+msgid "Christmas Island"
+msgstr ""
+
+#: enums.py:82
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: enums.py:83
+msgid "Colombia"
+msgstr ""
+
+#: enums.py:84
+msgid "Comoros"
+msgstr ""
+
+#: enums.py:85
+msgid "Congo"
+msgstr ""
+
+#: enums.py:86
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: enums.py:87
+msgid "Cook islands"
+msgstr ""
+
+#: enums.py:88
+msgid "Costa rica"
+msgstr ""
+
+#: enums.py:89
+msgid "Cote d'ivoire"
+msgstr ""
+
+#: enums.py:90
+msgid "Croatia"
+msgstr ""
+
+#: enums.py:91
+msgid "Cuba"
+msgstr ""
+
+#: enums.py:92
+msgid "Cyprus"
+msgstr ""
+
+#: enums.py:93
+msgid "Czech republic"
+msgstr ""
+
+#: enums.py:94
+msgid "Denmark"
+msgstr ""
+
+#: enums.py:95
+msgid "Djibouti"
+msgstr ""
+
+#: enums.py:96
+msgid "Dominica"
+msgstr ""
+
+#: enums.py:97
+msgid "Dominican Republic"
+msgstr ""
+
+#: enums.py:98
+msgid "Ecuador"
+msgstr ""
+
+#: enums.py:99
+msgid "Egypt"
+msgstr ""
+
+#: enums.py:100
+msgid "El salvador"
+msgstr ""
+
+#: enums.py:101
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: enums.py:102
+msgid "Eritrea"
+msgstr ""
+
+#: enums.py:103
+msgid "Estonia"
+msgstr ""
+
+#: enums.py:104
+msgid "Ethiopia"
+msgstr ""
+
+#: enums.py:105
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: enums.py:106
+msgid "Faroe islands"
+msgstr ""
+
+#: enums.py:107
+msgid "Fiji"
+msgstr ""
+
+#: enums.py:108
+msgid "Finland"
+msgstr ""
+
+#: enums.py:109
+msgid "France"
+msgstr ""
+
+#: enums.py:110
+msgid "French Guiana"
+msgstr ""
+
+#: enums.py:111
+msgid "French Polynesia"
+msgstr ""
+
+#: enums.py:112
+msgid "French southern territories"
+msgstr ""
+
+#: enums.py:113
+msgid "Gabon"
+msgstr ""
+
+#: enums.py:114
+msgid "Gambia"
+msgstr ""
+
+#: enums.py:115
+msgid "Georgia"
+msgstr ""
+
+#: enums.py:116
+msgid "Germany"
+msgstr ""
+
+#: enums.py:117
+msgid "Ghana"
+msgstr ""
+
+#: enums.py:118
+msgid "Gibraltar"
+msgstr ""
+
+#: enums.py:119
+msgid "Greece"
+msgstr ""
+
+#: enums.py:120
+msgid "Greenland"
+msgstr ""
+
+#: enums.py:121
+msgid "Grenada"
+msgstr ""
+
+#: enums.py:122
+msgid "Guadeloupe"
+msgstr ""
+
+#: enums.py:123
+msgid "Guam"
+msgstr ""
+
+#: enums.py:124
+msgid "Guatemala"
+msgstr ""
+
+#: enums.py:125
+msgid "Guinea"
+msgstr ""
+
+#: enums.py:126
+msgid "Guinea-bissau"
+msgstr ""
+
+#: enums.py:127
+msgid "Guyana"
+msgstr ""
+
+#: enums.py:128
+msgid "Haiti"
+msgstr ""
+
+#: enums.py:129
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: enums.py:130
+msgid "Holy see (Vatican City State)"
+msgstr ""
+
+#: enums.py:131
+msgid "Honduras"
+msgstr ""
+
+#: enums.py:132
+msgid "Hong kong"
+msgstr ""
+
+#: enums.py:133
+msgid "Hungary"
+msgstr ""
+
+#: enums.py:134
+msgid "Iceland"
+msgstr ""
+
+#: enums.py:135
+msgid "India"
+msgstr ""
+
+#: enums.py:136
+msgid "Indonesia"
+msgstr ""
+
+#: enums.py:137
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: enums.py:138
+msgid "Iraq"
+msgstr ""
+
+#: enums.py:139
+msgid "Ireland"
+msgstr ""
+
+#: enums.py:140
+msgid "Israel"
+msgstr ""
+
+#: enums.py:141
+msgid "Italy"
+msgstr ""
+
+#: enums.py:142
+msgid "Jamaica"
+msgstr ""
+
+#: enums.py:143
+msgid "Japan"
+msgstr ""
+
+#: enums.py:144
+msgid "Jordan"
+msgstr ""
+
+#: enums.py:145
+msgid "Kazakhstan"
+msgstr ""
+
+#: enums.py:146
+msgid "Kenya"
+msgstr ""
+
+#: enums.py:147
+msgid "Kiribati"
+msgstr ""
+
+#: enums.py:148
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: enums.py:149
+msgid "Korea, Republic of"
+msgstr ""
+
+#: enums.py:150
+msgid "Kuwait"
+msgstr ""
+
+#: enums.py:151
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: enums.py:152
+msgid "Lao people's Democratic Republic"
+msgstr ""
+
+#: enums.py:153
+msgid "Latvia"
+msgstr ""
+
+#: enums.py:154
+msgid "Lebanon"
+msgstr ""
+
+#: enums.py:155
+msgid "Lesotho"
+msgstr ""
+
+#: enums.py:156
+msgid "Liberia"
+msgstr ""
+
+#: enums.py:157
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: enums.py:158
+msgid "Liechtenstein"
+msgstr ""
+
+#: enums.py:159
+msgid "Lithuania"
+msgstr ""
+
+#: enums.py:160
+msgid "Luxembourg"
+msgstr ""
+
+#: enums.py:161
+msgid "Macao"
+msgstr ""
+
+#: enums.py:162
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr ""
+
+#: enums.py:163
+msgid "Madagascar"
+msgstr ""
+
+#: enums.py:164
+msgid "Malawi"
+msgstr ""
+
+#: enums.py:165
+msgid "Malaysia"
+msgstr ""
+
+#: enums.py:166
+msgid "Maldives"
+msgstr ""
+
+#: enums.py:167
+msgid "Mali"
+msgstr ""
+
+#: enums.py:168
+msgid "Malta"
+msgstr ""
+
+#: enums.py:169
+msgid "Marshall Islands"
+msgstr ""
+
+#: enums.py:170
+msgid "Martinique"
+msgstr ""
+
+#: enums.py:171
+msgid "Mauritania"
+msgstr ""
+
+#: enums.py:172
+msgid "Mauritius"
+msgstr ""
+
+#: enums.py:173
+msgid "Mayotte"
+msgstr ""
+
+#: enums.py:174
+msgid "Mexico"
+msgstr ""
+
+#: enums.py:175
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: enums.py:176
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: enums.py:177
+msgid "Monaco"
+msgstr ""
+
+#: enums.py:178
+msgid "Mongolia"
+msgstr ""
+
+#: enums.py:179
+msgid "Montserrat"
+msgstr ""
+
+#: enums.py:180
+msgid "Morocco"
+msgstr ""
+
+#: enums.py:181
+msgid "Mozambique"
+msgstr ""
+
+#: enums.py:182
+msgid "Myanmar"
+msgstr ""
+
+#: enums.py:183
+msgid "Namibia"
+msgstr ""
+
+#: enums.py:184
+msgid "Nauru"
+msgstr ""
+
+#: enums.py:185
+msgid "Nepal"
+msgstr ""
+
+#: enums.py:186
+msgid "Netherlands"
+msgstr ""
+
+#: enums.py:187
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: enums.py:188
+msgid "New Caledonia"
+msgstr ""
+
+#: enums.py:189
+msgid "New Zealand"
+msgstr ""
+
+#: enums.py:190
+msgid "Nicaragua"
+msgstr ""
+
+#: enums.py:191
+msgid "Niger"
+msgstr ""
+
+#: enums.py:192
+msgid "Nigeria"
+msgstr ""
+
+#: enums.py:193
+msgid "Niue"
+msgstr ""
+
+#: enums.py:194
+msgid "Norfolk Island"
+msgstr ""
+
+#: enums.py:195
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: enums.py:196
+msgid "Norway"
+msgstr ""
+
+#: enums.py:197
+msgid "Oman"
+msgstr ""
+
+#: enums.py:198
+msgid "Pakistan"
+msgstr ""
+
+#: enums.py:199
+msgid "Palau"
+msgstr ""
+
+#: enums.py:200
+msgid "Palestinian yerritory, occupied"
+msgstr ""
+
+#: enums.py:201
+msgid "Panama"
+msgstr ""
+
+#: enums.py:202
+msgid "Papua New Guinea"
+msgstr ""
+
+#: enums.py:203
+msgid "Paraguay"
+msgstr ""
+
+#: enums.py:204
+msgid "Peru"
+msgstr ""
+
+#: enums.py:205
+msgid "Philippines"
+msgstr ""
+
+#: enums.py:206
+msgid "Pitcairn"
+msgstr ""
+
+#: enums.py:207
+msgid "Poland"
+msgstr ""
+
+#: enums.py:208
+msgid "Portugal"
+msgstr ""
+
+#: enums.py:209
+msgid "Puerto Rico"
+msgstr ""
+
+#: enums.py:210
+msgid "Qatar"
+msgstr ""
+
+#: enums.py:211
+msgid "Reunion"
+msgstr ""
+
+#: enums.py:212
+msgid "Romania"
+msgstr ""
+
+#: enums.py:213
+msgid "Russian Federation"
+msgstr ""
+
+#: enums.py:214
+msgid "Rwanda"
+msgstr ""
+
+#: enums.py:215
+msgid "Saint Helena"
+msgstr ""
+
+#: enums.py:216
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: enums.py:217
+msgid "Saint Lucia"
+msgstr ""
+
+#: enums.py:218
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: enums.py:219
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: enums.py:220
+msgid "Samoa"
+msgstr ""
+
+#: enums.py:221
+msgid "San marino"
+msgstr ""
+
+#: enums.py:222
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: enums.py:223
+msgid "Saudi Arabia"
+msgstr ""
+
+#: enums.py:224
+msgid "Senegal"
+msgstr ""
+
+#: enums.py:225
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: enums.py:226
+msgid "Seychelles"
+msgstr ""
+
+#: enums.py:227
+msgid "Sierra Leone"
+msgstr ""
+
+#: enums.py:228
+msgid "Singapore"
+msgstr ""
+
+#: enums.py:229
+msgid "Slovakia"
+msgstr ""
+
+#: enums.py:230
+msgid "Slovenia"
+msgstr ""
+
+#: enums.py:231
+msgid "Solomon Islands"
+msgstr ""
+
+#: enums.py:232
+msgid "Somalia"
+msgstr ""
+
+#: enums.py:233
+msgid "South Africa"
+msgstr ""
+
+#: enums.py:234
+msgid "South Georgia and the south Sandwich Islands"
+msgstr ""
+
+#: enums.py:235
+msgid "Spain"
+msgstr ""
+
+#: enums.py:236
+msgid "Sri Lanka"
+msgstr ""
+
+#: enums.py:237
+msgid "Sudan"
+msgstr ""
+
+#: enums.py:238
+msgid "Suriname"
+msgstr ""
+
+#: enums.py:239
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: enums.py:240
+msgid "Swaziland"
+msgstr ""
+
+#: enums.py:241
+msgid "Sweden"
+msgstr ""
+
+#: enums.py:242
+msgid "Switzerland"
+msgstr ""
+
+#: enums.py:243
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: enums.py:244
+msgid "Taiwan, province of China"
+msgstr ""
+
+#: enums.py:245
+msgid "Tajikistan"
+msgstr ""
+
+#: enums.py:246
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: enums.py:247
+msgid "Thailand"
+msgstr ""
+
+#: enums.py:248
+msgid "Timor-Leste"
+msgstr ""
+
+#: enums.py:249
+msgid "Togo"
+msgstr ""
+
+#: enums.py:250
+msgid "Tokelau"
+msgstr ""
+
+#: enums.py:251
+msgid "Tonga"
+msgstr ""
+
+#: enums.py:252
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: enums.py:253
+msgid "Tunisia"
+msgstr ""
+
+#: enums.py:254
+msgid "Turkey"
+msgstr ""
+
+#: enums.py:255
+msgid "Turkmenistan"
+msgstr ""
+
+#: enums.py:256
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: enums.py:257
+msgid "Tuvalu"
+msgstr ""
+
+#: enums.py:258
+msgid "Uganda"
+msgstr ""
+
+#: enums.py:259
+msgid "Ukraine"
+msgstr ""
+
+#: enums.py:260
+msgid "United Arab Emirates"
+msgstr ""
+
+#: enums.py:261
+msgid "United Kingdom"
+msgstr ""
+
+#: enums.py:262
+msgid "United States"
+msgstr ""
+
+#: enums.py:263
+msgid "United States minor outlying islands"
+msgstr ""
+
+#: enums.py:264
+msgid "Uruguay"
+msgstr ""
+
+#: enums.py:265
+msgid "Uzbekistan"
+msgstr ""
+
+#: enums.py:266
+msgid "Vanuatu"
+msgstr ""
+
+#: enums.py:267
+msgid "Venezuela"
+msgstr ""
+
+#: enums.py:268
+msgid "Viet nam"
+msgstr ""
+
+#: enums.py:269
+msgid "Virgin Islands, british"
+msgstr ""
+
+#: enums.py:270
+msgid "Virgin Islands, u.s."
+msgstr ""
+
+#: enums.py:271
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: enums.py:272
+msgid "Western Sahara"
+msgstr ""
+
+#: enums.py:273
+msgid "Yemen"
+msgstr ""
+
+#: enums.py:274
+msgid "Zambia"
+msgstr ""
+
+#: enums.py:275
+msgid "Zimbabwe"
+msgstr ""
+
+#: enums.py:282
+msgid "United Arab Emirates, Dirhams"
+msgstr ""
+
+#: enums.py:283
+msgid "Afghanistan, Afghanis"
+msgstr ""
+
+#: enums.py:284
+msgid "Albania, Leke"
+msgstr ""
+
+#: enums.py:285
+msgid "Armenia, Drams"
+msgstr ""
+
+#: enums.py:286
+msgid "Netherlands Antilles, Guilders (also called Florins)"
+msgstr ""
+
+#: enums.py:287
+msgid "Angola, Kwanza"
+msgstr ""
+
+#: enums.py:288
+msgid "Argentina, Pesos"
+msgstr ""
+
+#: enums.py:289
+msgid "Australia, Dollars"
+msgstr ""
+
+#: enums.py:290
+msgid "Aruba, Guilders (also called Florins)"
+msgstr ""
+
+#: enums.py:291
+msgid "Azerbaijan, New Manats"
+msgstr ""
+
+#: enums.py:292
+msgid "Bosnia and Herzegovina, Convertible Marka"
+msgstr ""
+
+#: enums.py:293
+msgid "Barbados, Dollars"
+msgstr ""
+
+#: enums.py:294
+msgid "Bangladesh, Taka"
+msgstr ""
+
+#: enums.py:295
+msgid "Bulgaria, Leva"
+msgstr ""
+
+#: enums.py:296
+msgid "Bahrain, Dinars"
+msgstr ""
+
+#: enums.py:297
+msgid "Burundi, Francs"
+msgstr ""
+
+#: enums.py:298
+msgid "Bermuda, Dollars"
+msgstr ""
+
+#: enums.py:299
+msgid "Brunei Darussalam, Dollars"
+msgstr ""
+
+#: enums.py:300
+msgid "Bolivia, Bolivianos"
+msgstr ""
+
+#: enums.py:301
+msgid "Brazil, Brazil Real"
+msgstr ""
+
+#: enums.py:302
+msgid "Bahamas, Dollars"
+msgstr ""
+
+#: enums.py:303
+msgid "Bhutan, Ngultrum"
+msgstr ""
+
+#: enums.py:304
+msgid "Botswana, Pulas"
+msgstr ""
+
+#: enums.py:305
+msgid "Belarus, Rubles"
+msgstr ""
+
+#: enums.py:306
+msgid "Belize, Dollars"
+msgstr ""
+
+#: enums.py:307
+msgid "Canada, Dollars"
+msgstr ""
+
+#: enums.py:308
+msgid "Congo/Kinshasa, Congolese Francs"
+msgstr ""
+
+#: enums.py:309
+msgid "Switzerland, Francs"
+msgstr ""
+
+#: enums.py:310
+msgid "Chile, Pesos"
+msgstr ""
+
+#: enums.py:311
+msgid "China, Yuan Renminbi"
+msgstr ""
+
+#: enums.py:312
+msgid "Colombia, Pesos"
+msgstr ""
+
+#: enums.py:313
+msgid "Costa Rica, Colones"
+msgstr ""
+
+#: enums.py:314
+msgid "Cuba, Pesos"
+msgstr ""
+
+#: enums.py:315
+msgid "Cape Verde, Escudos"
+msgstr ""
+
+#: enums.py:316
+msgid "Czech Republic, Koruny"
+msgstr ""
+
+#: enums.py:317
+msgid "Djibouti, Francs"
+msgstr ""
+
+#: enums.py:318
+msgid "Denmark, Kroner"
+msgstr ""
+
+#: enums.py:319
+msgid "Dominican Republic, Pesos"
+msgstr ""
+
+#: enums.py:320
+msgid "Algeria, Algeria Dinars"
+msgstr ""
+
+#: enums.py:321
+msgid "Egypt, Pounds"
+msgstr ""
+
+#: enums.py:322
+msgid "Eritrea, Nakfa"
+msgstr ""
+
+#: enums.py:323
+msgid "Ethiopia, Birr"
+msgstr ""
+
+#: enums.py:324
+msgid "Euro Member Countries, Euro"
+msgstr ""
+
+#: enums.py:325
+msgid "Fiji, Dollars"
+msgstr ""
+
+#: enums.py:326
+msgid "Falkland Islands (Malvinas)), Pounds"
+msgstr ""
+
+#: enums.py:327
+msgid "United Kingdom, Pounds"
+msgstr ""
+
+#: enums.py:328
+msgid "Georgia, Lari"
+msgstr ""
+
+#: enums.py:329
+msgid "Guernsey, Pounds"
+msgstr ""
+
+#: enums.py:330
+msgid "Ghana, Cedis"
+msgstr ""
+
+#: enums.py:331
+msgid "Gibraltar, Pounds"
+msgstr ""
+
+#: enums.py:332
+msgid "Gambia, Dalasi"
+msgstr ""
+
+#: enums.py:333
+msgid "Guinea, Francs"
+msgstr ""
+
+#: enums.py:334
+msgid "Guatemala, Quetzales"
+msgstr ""
+
+#: enums.py:335
+msgid "Guyana, Dollars"
+msgstr ""
+
+#: enums.py:336
+msgid "Hong Kong, Dollars"
+msgstr ""
+
+#: enums.py:337
+msgid "Honduras, Lempiras"
+msgstr ""
+
+#: enums.py:338
+msgid "Croatia, Kuna"
+msgstr ""
+
+#: enums.py:339
+msgid "Haiti, Gourdes"
+msgstr ""
+
+#: enums.py:340
+msgid "Hungary, Forint"
+msgstr ""
+
+#: enums.py:341
+msgid "Indonesia, Rupiahs"
+msgstr ""
+
+#: enums.py:342
+msgid "Israel, New Shekels"
+msgstr ""
+
+#: enums.py:343
+msgid "Isle of Man, Pounds"
+msgstr ""
+
+#: enums.py:344
+msgid "India, Rupees"
+msgstr ""
+
+#: enums.py:345
+msgid "Iraq, Dinars"
+msgstr ""
+
+#: enums.py:346
+msgid "Iran, Rials"
+msgstr ""
+
+#: enums.py:347
+msgid "Iceland, Kronur"
+msgstr ""
+
+#: enums.py:348
+msgid "Jersey, Pounds"
+msgstr ""
+
+#: enums.py:349
+msgid "Jamaica, Dollars"
+msgstr ""
+
+#: enums.py:350
+msgid "Jordan, Dinars"
+msgstr ""
+
+#: enums.py:351
+msgid "Japan, Yen"
+msgstr ""
+
+#: enums.py:352
+msgid "Kenya, Shillings"
+msgstr ""
+
+#: enums.py:353
+msgid "Kyrgyzstan, Soms"
+msgstr ""
+
+#: enums.py:354
+msgid "Cambodia, Riels"
+msgstr ""
+
+#: enums.py:355
+msgid "Comoros, Francs"
+msgstr ""
+
+#: enums.py:356
+msgid "Korea (North), Won"
+msgstr ""
+
+#: enums.py:357
+msgid "Korea (South)), Won"
+msgstr ""
+
+#: enums.py:358
+msgid "Kuwait, Dinars"
+msgstr ""
+
+#: enums.py:359
+msgid "Cayman Islands, Dollars"
+msgstr ""
+
+#: enums.py:360
+msgid "Kazakhstan, Tenge"
+msgstr ""
+
+#: enums.py:361
+msgid "Laos, Kips"
+msgstr ""
+
+#: enums.py:362
+msgid "Lebanon, Pounds"
+msgstr ""
+
+#: enums.py:363
+msgid "Sri Lanka, Rupees"
+msgstr ""
+
+#: enums.py:364
+msgid "Liberia, Dollars"
+msgstr ""
+
+#: enums.py:365
+msgid "Lesotho, Maloti"
+msgstr ""
+
+#: enums.py:366
+msgid "Lithuania, Litai"
+msgstr ""
+
+#: enums.py:367
+msgid "Latvia, Lati"
+msgstr ""
+
+#: enums.py:368
+msgid "Libya, Dinars"
+msgstr ""
+
+#: enums.py:369
+msgid "Morocco, Dirhams"
+msgstr ""
+
+#: enums.py:370
+msgid "Moldova, Lei"
+msgstr ""
+
+#: enums.py:371
+msgid "Madagascar, Ariary"
+msgstr ""
+
+#: enums.py:372
+msgid "Macedonia, Denars"
+msgstr ""
+
+#: enums.py:373
+msgid "Myanmar (Burma)), Kyats"
+msgstr ""
+
+#: enums.py:374
+msgid "Mongolia, Tugriks"
+msgstr ""
+
+#: enums.py:375
+msgid "Macau, Patacas"
+msgstr ""
+
+#: enums.py:376
+msgid "Mauritania, Ouguiyas"
+msgstr ""
+
+#: enums.py:377
+msgid "Mauritius, Rupees"
+msgstr ""
+
+#: enums.py:378
+msgid "Maldives (Maldive Islands)), Rufiyaa"
+msgstr ""
+
+#: enums.py:379
+msgid "Malawi, Kwachas"
+msgstr ""
+
+#: enums.py:380
+msgid "Mexico, Pesos"
+msgstr ""
+
+#: enums.py:381
+msgid "Malaysia, Ringgits"
+msgstr ""
+
+#: enums.py:382
+msgid "Mozambique, Meticais"
+msgstr ""
+
+#: enums.py:383
+msgid "Namibia, Dollars"
+msgstr ""
+
+#: enums.py:384
+msgid "Nigeria, Nairas"
+msgstr ""
+
+#: enums.py:385
+msgid "Nicaragua, Cordobas"
+msgstr ""
+
+#: enums.py:386
+msgid "Norway, Krone"
+msgstr ""
+
+#: enums.py:387
+msgid "Nepal, Nepal Rupees"
+msgstr ""
+
+#: enums.py:388
+msgid "New Zealand, Dollars"
+msgstr ""
+
+#: enums.py:389
+msgid "Oman, Rials"
+msgstr ""
+
+#: enums.py:390
+msgid "Panama, Balboa"
+msgstr ""
+
+#: enums.py:391
+msgid "Peru, Nuevos Soles"
+msgstr ""
+
+#: enums.py:392
+msgid "Papua New Guinea, Kina"
+msgstr ""
+
+#: enums.py:393
+msgid "Philippines, Pesos"
+msgstr ""
+
+#: enums.py:394
+msgid "Pakistan, Rupees"
+msgstr ""
+
+#: enums.py:395
+msgid "Poland, Zlotych"
+msgstr ""
+
+#: enums.py:396
+msgid "Paraguay, Guarani"
+msgstr ""
+
+#: enums.py:397
+msgid "Qatar, Rials"
+msgstr ""
+
+#: enums.py:398
+msgid "Romania, New Lei"
+msgstr ""
+
+#: enums.py:399
+msgid "Serbia, Dinars"
+msgstr ""
+
+#: enums.py:400
+msgid "Russia, Rubles"
+msgstr ""
+
+#: enums.py:401
+msgid "Rwanda, Rwanda Francs"
+msgstr ""
+
+#: enums.py:402
+msgid "Saudi Arabia, Riyals"
+msgstr ""
+
+#: enums.py:403
+msgid "Solomon Islands, Dollars"
+msgstr ""
+
+#: enums.py:404
+msgid "Seychelles, Rupees"
+msgstr ""
+
+#: enums.py:405
+msgid "Sudan, Pounds"
+msgstr ""
+
+#: enums.py:406
+msgid "Sweden, Kronor"
+msgstr ""
+
+#: enums.py:407
+msgid "Singapore, Dollars"
+msgstr ""
+
+#: enums.py:408
+msgid "Saint Helena, Pounds"
+msgstr ""
+
+#: enums.py:409
+msgid "Sierra Leone, Leones"
+msgstr ""
+
+#: enums.py:410
+msgid "Somalia, Shillings"
+msgstr ""
+
+#: enums.py:411
+msgid "Seborga, Luigini"
+msgstr ""
+
+#: enums.py:412
+msgid "Suriname, Dollars"
+msgstr ""
+
+#: enums.py:413
+msgid "Sao Tome and Principe, Dobras"
+msgstr ""
+
+#: enums.py:414
+msgid "El Salvador, Colones"
+msgstr ""
+
+#: enums.py:415
+msgid "Syria, Pounds"
+msgstr ""
+
+#: enums.py:416
+msgid "Swaziland, Emalangeni"
+msgstr ""
+
+#: enums.py:417
+msgid "Thailand, Baht"
+msgstr ""
+
+#: enums.py:418
+msgid "Tajikistan, Somoni"
+msgstr ""
+
+#: enums.py:419
+msgid "Turkmenistan, Manats"
+msgstr ""
+
+#: enums.py:420
+msgid "Tunisia, Dinars"
+msgstr ""
+
+#: enums.py:421
+msgid "Tonga, Pa'anga"
+msgstr ""
+
+#: enums.py:422
+msgid "Turkey, New Lira"
+msgstr ""
+
+#: enums.py:423
+msgid "Trinidad and Tobago, Dollars"
+msgstr ""
+
+#: enums.py:424
+msgid "Tuvalu, Tuvalu Dollars"
+msgstr ""
+
+#: enums.py:425
+msgid "Taiwan, New Dollars"
+msgstr ""
+
+#: enums.py:426
+msgid "Tanzania, Shillings"
+msgstr ""
+
+#: enums.py:427
+msgid "Ukraine, Hryvnia"
+msgstr ""
+
+#: enums.py:428
+msgid "Uganda, Shillings"
+msgstr ""
+
+#: enums.py:429
+msgid "United States of America, Dollars"
+msgstr ""
+
+#: enums.py:430
+msgid "Uruguay, Pesos"
+msgstr ""
+
+#: enums.py:431
+msgid "Uzbekistan, Sums"
+msgstr ""
+
+#: enums.py:432
+msgid "Venezuela, Bolivares Fuertes"
+msgstr ""
+
+#: enums.py:433
+msgid "Viet Nam, Dong"
+msgstr ""
+
+#: enums.py:434
+msgid "Vanuatu, Vatu"
+msgstr ""
+
+#: enums.py:435
+msgid "Samoa, Tala"
+msgstr ""
+
+#: enums.py:436
+msgid "Communaute Financiere Africaine BEAC, Francs"
+msgstr ""
+
+#: enums.py:437
+msgid "Silver, Ounces"
+msgstr ""
+
+#: enums.py:438
+msgid "Gold, Ounces"
+msgstr ""
+
+#: enums.py:439
+msgid "East Caribbean Dollars"
+msgstr ""
+
+#: enums.py:440
+msgid "International Monetary Fund (IMF) Special Drawing Rights"
+msgstr ""
+
+#: enums.py:441
+msgid "Communaute Financiere Africaine BCEAO, Francs"
+msgstr ""
+
+#: enums.py:442
+msgid "Palladium Ounces"
+msgstr ""
+
+#: enums.py:443
+msgid "Comptoirs Francais du Pacifique Francs"
+msgstr ""
+
+#: enums.py:444
+msgid "Platinum, Ounces"
+msgstr ""
+
+#: enums.py:445
+msgid "Yemen, Rials"
+msgstr ""
+
+#: enums.py:446
+msgid "South Africa, Rand"
+msgstr ""
+
+#: enums.py:447
+msgid "Zambia, Kwacha"
+msgstr ""
+
+#: enums.py:448
+msgid "Zimbabwe, Zimbabwe Dollars"
+msgstr ""
+
+#: views.py:52 views.py:62
+#, python-format
+msgid "Requested file \"%s\" does not exist"
+msgstr "El archivo solicitado \"%s\" no existe"
+
+#: admin/actions.py:35
+msgid "Clone selected registers"
+msgstr "Clonar los registros seleccionados"
+
+#: admin/filters.py:45
+msgid "Any date"
+msgstr "Cualquier fecha"
+
+#: admin/filters.py:46
+msgid "This year"
+msgstr "Este año"
+
+#: admin/filters.py:50
+msgid "This month"
+msgstr "Este mes"
+
+#: admin/filters.py:54
+msgid "Past 30 days"
+msgstr "Hace 30 días"
+
+#: admin/filters.py:58
+msgid "Past 15 days"
+msgstr "Hace 15 días"
+
+#: admin/filters.py:62
+msgid "Past 7 days"
+msgstr "Hace 7 días"
+
+#: admin/filters.py:66
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: admin/filters.py:70
+msgid "Today"
+msgstr "Hoy"
+
+#: admin/filters.py:74
+msgid "Tomorrow"
+msgstr "Mañana"
+
+#: admin/filters.py:78
+msgid "Next 7 days"
+msgstr "Próximos 7 días"
+
+#: admin/filters.py:82
+msgid "Next 15 days"
+msgstr "Próximos 15 días"
+
+#: admin/filters.py:86
+msgid "Next 30 days"
+msgstr "Próximos 30 días"
+
+#: admin/filters.py:90
+msgid "Next month"
+msgstr "Próximo mes"
+
+#: admin/filters.py:94
+msgid "Next year"
+msgstr "Próximo año"
+
+#: admin/widgets.py:31
+msgid "Currently:"
+msgstr "Actualmente:"
+
+#: admin/widgets.py:31
+msgid "Change:"
+msgstr "Cambiar:"
+
+#: forms/fields.py:33
+#, python-format
+msgid "I accept the <a href=\"%s\" target=\"_blank\">terms and conditions</a>"
+msgstr "Acepto los <a href=\"%s\" target=\"_blank\">términos y condiciones</a>"
+
+#: forms/fields.py:47
+msgid "You have to accept the terms and conditions to continue"
+msgstr "Debe aceptar los términos y condiciones para continuar"
+
+#: forms/fields.py:75 forms/fields.py:101
+msgid "Invalid verification"
+msgstr "Verificación no válida"
+
+#: forms/fields.py:120
+msgid "Invalid credit card number"
+msgstr "Número de tarjeta de crédito no válido"
+
+#: forms/formlogic.py:28
+msgid "Submit"
+msgstr "Enviar"
+
+#: forms/formlogic.py:29
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: models/__init__.py:64 models/__init__.py:80
+msgid "Content type"
+msgstr "Tipo de contenido"
+
+#: models/__init__.py:65 models/__init__.py:81
+msgid "Associated content type"
+msgstr "Tipo de contenido asociado"
+
+#: models/__init__.py:66 models/__init__.py:82
+msgid "Object ID"
+msgstr "Identificador de objeto"
+
+#: models/__init__.py:67 models/__init__.py:83
+msgid "Associated object identifier"
+msgstr "Identificador del objeto asociado"
+
+#: models/__init__.py:97
+msgid "Publication options"
+msgstr "Opciones de publicación"
+
+#: models/__init__.py:102
+msgid "Active"
+msgstr "Activo"
+
+#: models/__init__.py:103
+msgid "Indicates if currently active"
+msgstr "Indica si está activo"
+
+#: models/__init__.py:104
+msgid "Start"
+msgstr "Inicio"
+
+#: models/__init__.py:105
+msgid "Start publication date"
+msgstr "Fecha de inicio de publicación"
+
+#: models/__init__.py:106
+msgid "End"
+msgstr "Fin"
+
+#: models/__init__.py:107
+msgid "End publication date"
+msgstr "Fecha de fin de publicación"
+
+#: models/__init__.py:108
+msgid "Publishable"
+msgstr "Publicable"
+
+#: models/__init__.py:109
+msgid "Indicates if publishable (Cached value)"
+msgstr "Indica si es publicable (Cacheado)"
+
+#: models/__init__.py:173
+msgid "Translation data"
+msgstr "Datos de traducción"
+
+#: models/__init__.py:177
+msgid "Language"
+msgstr "Idioma"
+
+#: models/__init__.py:178
+msgid "Language for this model"
+msgstr "Idioma para este modelo"
+
+#: models/__init__.py:179
+msgid "Translated parent"
+msgstr "Padre traducido"
+
+#: models/__init__.py:180
+msgid "Parent item that is translated by this one"
+msgstr "Elemento padre que es traducido por el actual"
+
+#: models/__init__.py:230
+msgid "Deleted"
+msgstr "Borrado"
+
+#: models/__init__.py:231
+msgid "Indicates if this object has been deleted"
+msgstr "Indica si este objeto ha sido borrado"
+
+#: models/__init__.py:243
+msgid "Created"
+msgstr "Creado"
+
+#: models/__init__.py:244
+msgid "Creation date and time"
+msgstr "Fecha y hora de creación"
+
+#: models/__init__.py:245
+msgid "Modified"
+msgstr "Modificado"
+
+#: models/__init__.py:246
+msgid "Modification date and time"
+msgstr "Fecha y hora de modificación"
+
+#: models/fields.py:99
+msgid "Enter a valid object"
+msgstr "Introducir un objeto válido"
+
+#: templates/admin/combo_filter.html:2
+#, python-format
+msgid " By %(filter_title)s "
+msgstr " Por %(filter_title)s "
+
+#: templates/admin/generic_collection_edit_inline/stacked_inline.html:11
+#: templates/admin/generic_collection_edit_inline/tabular_inline.html:31
+msgid "View on site"
+msgstr "Ver en el sitio"
+
+#: templates/admin/generic_collection_edit_inline/tabular_inline.html:18
+msgid "Delete?"
+msgstr "¿Borrar?"
+
+#: templates/admin/generic_collection_edit_inline/tabular_inline.html:60
+#: templates/admin/generic_collection_edit_inline/includes/stacked_fieldset.html:34
+msgid "None"
+msgstr "Ninguno"
+
+#: templates/admin/generic_collection_edit_inline/includes/scripts.html:95
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "Añadir otro %(verbose_name)s"
+
+#: templates/admin/generic_collection_edit_inline/includes/scripts.html:98
+msgid "Remove"
+msgstr "Eliminar"
+
+#~ msgid "E-Mail address"
+#~ msgstr "Dirección de correo electrónico"
+
+#~ msgid "User"
+#~ msgstr "Usuario"
+
+#~ msgid "Logged out"
+#~ msgstr "Sesión finalizada"
+
+#~ msgid "Log out"
+#~ msgstr "Cerrar sesión"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Username"
+#~ msgstr "Nombre de usuario"
+
+#~ msgid "Remove ban"
+#~ msgstr "Eliminar ban"
+
+#~ msgid "Audit log"
+#~ msgstr "Registro de auditación"
+
+#~ msgid "Audit logs"
+#~ msgstr "Registros de auditación"
+
+#~ msgid "Logged in"
+#~ msgstr "Sesión iniciada"
+
+#~ msgid "Login failed"
+#~ msgstr "Error de inicio de sesión"
+
+#~ msgid "Login lock"
+#~ msgstr "Bloqueo de inicio de sesión"
+
+#~ msgid "Login ban"
+#~ msgstr "Ban de inicio de sesión"
+
+#~ msgid "Login ban removed"
+#~ msgstr "Ban de inicio de sesión eliminado"
+
+#~ msgid "Timestamp"
+#~ msgstr "Fecha y hora"
+
+#~ msgid "Log timestamp"
+#~ msgstr "Fecha y hora del registro"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Audit log type"
+#~ msgstr "Tipo de registro de auditación"
+
+#~ msgid "User associated to audit log"
+#~ msgstr "Usuario asociado al registro de auditación"
+
+#~ msgid "IP address"
+#~ msgstr "Dirección IP"
+
+#~ msgid "data"
+#~ msgstr "datos"
+
+#~ msgid "Log extra data"
+#~ msgstr "Datos extra del registro"
+
+#~ msgid "Login ban stablished"
+#~ msgstr "Establecido ban de inicio de sesión"
+
+#~ msgid "Login lock stablished"
+#~ msgstr "Establecido bloqueo de inicio de sesión"
+
+#~ msgid "A new login ban has been stablished"
+#~ msgstr "Se ha establecido un nuevo ban de inicio de sesión"
+
+#~ msgid "Log information"
+#~ msgstr "Información del registro"
+
+#~ msgid "IP Address"
+#~ msgstr "Dirección IP"
+
+#~ msgid "Extra information"
+#~ msgstr "Información extra"
+
+#~ msgid "A new login lock has been stablished"
+#~ msgstr "Se ha establecido un nuevo bloqueo de inicio de sesión"
+
+#~ msgid "General data"
+#~ msgstr "Datos generales"
+
+#~ msgid "Tags for this item"
+#~ msgstr "Etiquetas para este elemento"
+
+#~ msgid "Creator"
+#~ msgstr "Autor"
+
+#~ msgid "Indicates this ticket is closed"
+#~ msgstr "Indica si este ticket ha sido cerrado"
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Bug description"
+#~ msgstr "Descripción del bug"
+
+#~ msgid "Internal message"
+#~ msgstr "Mensaje interno"
+
+#~ msgid "Internal messages"
+#~ msgstr "Mensajes internos"
+
+#~ msgid "Creation date"
+#~ msgstr "Fecha de creación"
+
+#~ msgid "Sender"
+#~ msgstr "Remitente"
+
+#~ msgid "Message sender"
+#~ msgstr "Remitente del mensaje"
+
+#~ msgid "Recipent"
+#~ msgstr "Destinatario"
+
+#~ msgid "Message recipents"
+#~ msgstr "Destinatarios del mensaje"
+
+#~ msgid "Subject"
+#~ msgstr "Asunto"
+
+#~ msgid "Message subject"
+#~ msgstr "Asunto del mensaje"
+
+#~ msgid "Message body"
+#~ msgstr "Cuerpo del mensaje"
+
+#~ msgid "Must specify a recipent"
+#~ msgstr "Debe especificar un destinatario"
+
+#~ msgid "Internal message read"
+#~ msgstr "Mensaje interno leido"
+
+#~ msgid "Internal messages read"
+#~ msgstr "Mensajes internos leidos"
+
+#~ msgid "Message"
+#~ msgstr "Mensaje"
+
+#~ msgid "Message for this read confirmation"
+#~ msgstr "Mensaje para esta confirmación de lectura"
+
+#~ msgid "Message recipent"
+#~ msgstr "Receptor del mensaje"
+
+#~ msgid "%(subject)s read by %(rcpt)s"
+#~ msgstr "%(subject)s leído por %(rcpt)s"
+
+#~ msgid "Invalid identification document number"
+#~ msgstr "Número de documento de identidad no válido"
+
+#, fuzzy
+#~ msgid "MIME Type"
+#~ msgstr "Tipo"
+
+#, fuzzy
+#~ msgid "Correlation ID"
+#~ msgstr "Fecha de creación"
+
+#~ msgid "SMS verification log"
+#~ msgstr "Log de SMS de verificación"
+
+#~ msgid "SMS verification logs"
+#~ msgstr "Logs de SMS de verificación"
+
+#~ msgid "Phone"
+#~ msgstr "Teléfono"
+
+#~ msgid "Destination phone number"
+#~ msgstr "Número de teléfono de destino"
+
+#~ msgid "Message sent"
+#~ msgstr "Mensaje enviado"
+
+#~ msgid "Code"
+#~ msgstr "Código"
+
+#~ msgid "Verification code for the message"
+#~ msgstr "Código de verificación para el mensaje"
+
+#~ msgid "Verified"
+#~ msgstr "Verificado"
+
+#~ msgid "Inficates verified date"
+#~ msgstr "Indica la decha de verificación"
+
+#~ msgid "Result"
+#~ msgstr "Resultado"
+
+#~ msgid "SMS Send result"
+#~ msgstr "Resultado del envío del SMS"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "Extra information given by SMS backend"
+#~ msgstr "Información extra dada por el backend de SMS"
+
+#~ msgid "SMS: %s"
+#~ msgstr "SMS: %s"
+
+#~ msgid "IP Address is locked for SMS sending"
+#~ msgstr "La IP está bloqueada para el envío de SMS"
+
+#, fuzzy
+#~ msgid "Category description"
+#~ msgstr "Descripción"
+
+#~ msgid "Don't expire"
+#~ msgstr "No caduca"
+
+#~ msgid "Paused"
+#~ msgstr "Pausado"
+
+#~ msgid "Pause date"
+#~ msgstr "Fecha de pausa"
+
+#~ msgid "Pub."
+#~ msgstr "Pub."
+
+#~ msgid "Parent"
+#~ msgstr "Principal"
+
+#~ msgid "Parent translation register"
+#~ msgstr "Registro principal de la traducción"
+
+#~ msgid "required"
+#~ msgstr "obligatorio"
+
+#~ msgid ""
+#~ "Invalid date specified. Must be in format: YYYYMMDD or YYYYMMDDhhmmss"
+#~ msgstr ""
+#~ "Formato de fecha especificado no válido. Debe tener el formato YYYYMMDD o "
+#~ "YYYYMMDDhhmmss"

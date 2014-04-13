@@ -1,0 +1,18 @@
+{% comment %}
+===============================================================================
+Author: (C) 2011 Oliver Gutierrez <ogutsua@evosistemas.com>
+Module: templates/evodjango/includes/form_field.html
+Description: Form field include template
+===============================================================================
+{% endcomment %}
+
+{% if not field.is_hidden %}
+	<div id="{{field.auto_id }}_fieldwrapper" class="fieldwrapper{% if field.errors %} fielderror{% endif %}" {% if field.help_text %}title="{{ field.help_text }}"{% endif %}>
+		{% if field.errors %}{{ field.errors }}{% endif %}
+		<label for="{{ field.auto_id }}" class="fieldlabel {% if field.field.required %}required{% endif %}">{{ field.label }}</label>
+		{{ field }}
+		{# {% if field.help_text %}<p id="{{field.auto_id }}_helptext" class="helptext">{{ field.help_text }}</p>{% endif %} #}
+	</div>
+{% else %}
+   	{{ field }}
+{% endif %}

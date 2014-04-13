@@ -1,0 +1,111 @@
+{% load i18n admin_static %}
+
+<script type="text/javascript">
+
+django.jQuery.ajaxSetup({
+    beforeSend: function(xhr, settings) {
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = django.jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+        if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {
+
+            // Only send the token to relative URLs i.e. locally.
+            xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+        }
+    }
+});
+
+function dismissGenericPopup(win,ct,id) {
+	win.close();
+	
+	var name = windowname_to_id(win.name);
+	var ctname = name.replace('object_id','content_type');
+		
+	function show_repr(field_id,repr) {
+		var actual=document.getElementById('lookup_' + field_id);
+		actual.lastChild.replaceWholeText(' ' + repr);
+	}
+	document.getElementById(name).value = id;
+	document.getElementById(ctname).value = ct;	
+	django.jQuery.post('/cmsadmin/evocms/getobjrepr/',{content_type: ct, object_id: id},
+	function(resp){show_repr(name,resp.repr);},'json');
+}
+
+function showGenericRelatedObjectLookupPopup(triggeringLink, ctArray) {
+    var realName = triggeringLink.id.replace(/^lookup_/, '');
+    var win = window.open('../../../evocms/content_selection/', id_to_windowname(realName), 'height=500,width=800,resizable=yes,scrollbars=yes');
+    win.focus();
+    return false;
+}
+
+(function($) {
+    $(document).ready(function($) {
+        var rows = "#{{ inline_admin_formset.formset.prefix }}-group .tabular.inline-related tbody tr";
+        var alternatingRows = function(row) {
+            $(rows).not(".add-row").removeClass("row1 row2")
+                .filter(":even").addClass("row1").end()
+                .filter(rows + ":odd").addClass("row2");
+        }
+        var reinitDateTimeShortCuts = function() {
+            // Reinitialize the calendar and clock widgets by force
+            if (typeof DateTimeShortcuts != "undefined") {
+                $(".datetimeshortcuts").remove();
+                DateTimeShortcuts.init();
+            }
+        }
+        var updateSelectFilter = function() {
+            // If any SelectFilter widgets are a part of the new form,
+            // instantiate a new SelectFilter instance for it.
+            if (typeof SelectFilter != "undefined"){
+                $(".selectfilter").each(function(index, value){
+                  var namearr = value.name.split('-');
+                  SelectFilter.init(value.id, namearr[namearr.length-1], false, "{% static "admin" %}");
+                })
+                $(".selectfilterstacked").each(function(index, value){
+                  var namearr = value.name.split('-');
+                  SelectFilter.init(value.id, namearr[namearr.length-1], true, "{% static "admin" %}");
+                })
+            }
+        }
+        var initPrepopulatedFields = function(row) {
+            row.find('.prepopulated_field').each(function() {
+                var field = $(this);
+                var input = field.find('input, select, textarea');
+                var dependency_list = input.data('dependency_list') || [];
+                var dependencies = row.find(dependency_list.join(',')).find('input, select, textarea');
+                if (dependencies.length) {
+                    input.prepopulate(dependencies, input.attr('maxlength'));
+                }
+            });
+        }
+        $(rows).formset({
+            prefix: "{{ inline_admin_formset.formset.prefix }}",
+            addText: "{% blocktrans with inline_admin_formset.opts.verbose_name|title as verbose_name %}Add another {{ verbose_name }}{% endblocktrans %}",
+            formCssClass: "dynamic-{{ inline_admin_formset.formset.prefix }}",
+            deleteCssClass: "inline-deletelink",
+            deleteText: "{% trans "Remove" %}",
+            emptyCssClass: "empty-form",
+            removed: alternatingRows,
+            added: (function(row) {
+                initPrepopulatedFields(row);
+                reinitDateTimeShortCuts();
+                updateSelectFilter();
+                alternatingRows(row);
+            })
+        });
+    });
+})(django.jQuery);
+
+</script>
