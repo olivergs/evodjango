@@ -114,13 +114,7 @@ def send_mail_from_template(recipient_list,subject_template_name,email_template_
     subject=render_to_string(subject_template_name, context)
     subject=''.join(subject.splitlines())
     message=render_to_string(email_template_name, context)
-    if html:
-        message=''
-        html_message=message
-    else:
-        html_message=None
-    send_mail(subject, message, from_email, recipient_list, fail_silently, auth_user, auth_password, connection, html_message)
-    mail_admins(subject, message, fail_silently=True)
+    send_mail(subject, message, from_email, recipient_list, fail_silently, auth_user, auth_password, connection)
 
 def send_mail_to_admins(subject_template_name,email_template_name,request=None,context={},fail_silently=True):
     """
