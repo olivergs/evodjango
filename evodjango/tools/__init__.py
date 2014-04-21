@@ -18,11 +18,10 @@ import StringIO
 # Django imports
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.core.files.uploadedfile import InMemoryUploadedFile
-from django.template import Context, loader, RequestContext
+from django.template import RequestContext
 from django.utils import timezone
 from django.utils.translation import ugettext as _
-from django.core.mail import mail_admins, send_mail
-from django.template.loader import render_to_string
+
 from django.conf import settings
 
 # EVODjango imports
@@ -32,6 +31,7 @@ from evodjango import utils as evodjango_utils
 inject_app_defaults=evodjango_utils.inject_app_defaults
 get_public_ip=evodjango_utils.get_public_ip
 static_serve=evodjango_utils.static_serve
+send_mail_to_admins=evodjango_utils.send_mail_to_admins
 
 def reduce_opacity(im,opacity):
     """
@@ -99,30 +99,7 @@ def paginate_items(obj_list,elems=25,pagenum=1):
         objs = paginator.page(paginator.num_pages)
     return objs
 
-def render_template(template_list,context={}):
-    """
-    Get first available template from given list and renders to an string with given context
-    
-    :param templates: Template path list
-    :type templates: List
-    :param context: Context used for template rendering
-    :type context: Dictionary
-    :returns: Rendered template
-    :rtype: String
-    """
-    template = loader.select_template(template_list)
-    return template.render(Context(context))
 
-def send_mail_to_admins(subject_template_name,email_template_name,request=None,context={},fail_silently=True):
-    """
-    Send email to administrators
-    """
-    if request:
-        context.update(RequestContext(request))
-    subject=render_to_string(subject_template_name, context)
-    subject=''.join(subject.splitlines())
-    message=render_to_string(email_template_name, context)
-    mail_admins(subject, message, fail_silently=True)
     
 
 

@@ -10,14 +10,17 @@ EVODjango utils module
 """
 
 # Python imports
-import sys, os
+import sys, os, datetime
 
 # Django imports
 from django.contrib.auth import get_user_model
 from django.http import Http404
 from django.contrib.sessions.models import Session
-from datetime import datetime
 from django.utils.translation import ugettext_lazy as _
+from django.core.mail import mail_admins, send_mail
+from django.template.loader import render_to_string
+from django.template import RequestContext
+from django.conf import settings
 
 # EVODjango imports
 from evodjango.http import StaticServeResponse,StreamingServeResponse
@@ -62,7 +65,7 @@ def logged_in_users():
     TODO: Include this method into a manager for users model
     """
     # Query all non-expired sessions
-    sessions = Session.objects.filter(expire_date__gte=datetime.now())
+    sessions = Session.objects.filter(expire_date__gte=datetime.datetime.now())
     uid_list = []
 
     # Build a list of user ids from that query
@@ -99,3 +102,33 @@ def static_serve(filepath,backend='django',download_as=None,extra_headers={},*ar
             return StaticServeResponse(filepath,backend,download_as,extra_headers,*args,**kwargs)
     else:
         raise Http404(unicode(_('Requested file "%s" does not exist') % filepath))
+
+def send_mail_from_template(recipient_list,subject_template_name,email_template_name,
+                            from_email=settings.DEFAULT_FROM_EMAIL,request=None,context={},
+                            fail_silently=False,auth_user=None, auth_password=None, connection=None,html=False):
+    """
+    Send email rendering a template
+    """
+    if request:
+        context.update(RequestContext(request))
+    subject=render_to_string(subject_template_name, context)
+    subject=''.join(subject.splitlines())
+    message=render_to_string(email_template_name, context)
+    if html:
+        message=''
+        html_message=message
+    else:
+        html_message=None
+    send_mail(subject, message, from_email, recipient_list, fail_silently, auth_user, auth_password, connection, html_message)
+    mail_admins(subject, message, fail_silently=True)
+
+def send_mail_to_admins(subject_template_name,email_template_name,request=None,context={},fail_silently=True):
+    """
+    Send email to administrators
+    """
+    if request:
+        context.update(RequestContext(request))
+    subject=render_to_string(subject_template_name, context)
+    subject=''.join(subject.splitlines())
+    message=render_to_string(email_template_name, context)
+    mail_admins(subject, message, fail_silently=True)
