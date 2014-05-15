@@ -4,8 +4,9 @@ EVODjango tools module
 ===============================================
 
 .. module:: evodjango.tools
-    :platform: Unix, Windows
+    :platform: Django
     :synopsis: EVODjango tool functions module
+    :deprecated: This module will disappear. evodjango.utils module will replace this one in future 
 .. moduleauthor:: (C) 2012 Oliver Gutiérrez
 """
 
@@ -29,7 +30,7 @@ from evodjango import utils as evodjango_utils
 
 # Temporary references for compatibility
 inject_app_defaults=evodjango_utils.inject_app_defaults
-get_public_ip=evodjango_utils.get_public_ip
+get_public_ip=evodjango_utils.get_client_ip
 static_serve=evodjango_utils.static_serve
 send_mail_to_admins=evodjango_utils.send_mail_to_admins
 

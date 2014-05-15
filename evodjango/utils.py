@@ -49,9 +49,9 @@ def inject_app_defaults(appname):
         # Silently skip failing settings modules
         pass
 
-def get_public_ip(req):
+def get_client_ip(req):
     """
-    Get public IP address from a request
+    Get client IP address from a request
     """
     # Public IP discovering
     if 'HTTP_X_FORWARDED_FOR' in req.META:
@@ -126,3 +126,7 @@ def send_mail_to_admins(subject_template_name,email_template_name,request=None,c
     subject=''.join(subject.splitlines())
     message=render_to_string(email_template_name, context)
     mail_admins(subject, message, fail_silently=True)
+
+# Deprecated function names
+get_public_ip = get_client_ip
+
