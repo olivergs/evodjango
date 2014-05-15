@@ -55,10 +55,10 @@ def get_public_ip(req):
     """
     # Public IP discovering
     if 'HTTP_X_FORWARDED_FOR' in req.META:
-        pub_ip=req.META['HTTP_X_FORWARDED_FOR']
+        ip=req.META['HTTP_X_FORWARDED_FOR'].split(',')[-1].strip()
     else:
-        pub_ip=req.META['REMOTE_ADDR']
-    return pub_ip
+        ip=req.META['REMOTE_ADDR']
+    return ip
 
 def logged_in_users():
     """
