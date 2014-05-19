@@ -246,5 +246,5 @@ class TimestampedModel(models.Model):
 
     timestamped_created=models.DateTimeField(_('Created'),auto_now_add=True,editable=False,db_index=True,
         help_text=_('Creation date and time'))
-    timestamped_modified=models.DateTimeField(_('Modified'),auto_now_add=True,auto_now=True,editable=False,db_index=True,
+    timestamped_modified=models.DateTimeField(_('Modified'),auto_now=True,editable=False,db_index=True,
         help_text=_('Modification date and time'))
