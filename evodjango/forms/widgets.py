@@ -15,7 +15,7 @@ TODO: Solve recaptcha problems with AJAX forms
 # Django imports
 from django import forms
 from django.utils.safestring import mark_safe
-from django.forms.util import flatatt
+from django.forms.utils import flatatt
 from django.utils.translation import ugettext_lazy as _
 
 #===============================================================================

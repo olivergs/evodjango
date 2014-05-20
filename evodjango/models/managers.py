@@ -25,7 +25,7 @@ class PublishableModelManager(models.Manager):
         Get all posts for a given tag and filters
         """
         # Filter by active publishables
-        qs=self.get_query_set().filter(publishable_active=True)
+        qs=self.get_queryset().filter(publishable_active=True)
         # Filter by publishable start and end date
         timestamp=timezone.now()
         qs=qs.filter(models.Q(publishable_start=None) | models.Q (publishable_start__lte=timestamp))

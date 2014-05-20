@@ -14,8 +14,8 @@
 # Django imports
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
-from django.contrib.contenttypes import generic
 from django.contrib.contenttypes.models import ContentType
+from django.contrib.contenttypes.fields import GenericForeignKey
 from django.utils import timezone, translation
 from django.conf import settings
 
@@ -69,7 +69,7 @@ class GenericModel(models.Model):
         help_text=_('Associated content type'))
     object_id = models.PositiveIntegerField(_('Object ID'),
         help_text=_('Associated object identifier'))
-    content_object = generic.GenericForeignKey('content_type', 'object_id')
+    content_object = GenericForeignKey('content_type', 'object_id')
 
 class GenericNullModel(models.Model):
     """
@@ -85,7 +85,7 @@ class GenericNullModel(models.Model):
         help_text=_('Associated content type'))
     object_id = models.PositiveIntegerField(_('Object ID'),blank=True,null=True,
         help_text=_('Associated object identifier'))
-    content_object = generic.GenericForeignKey('content_type', 'object_id')
+    content_object = GenericForeignKey('content_type', 'object_id')
 
 class PublishableModel(models.Model):
     """

@@ -11,9 +11,9 @@ EVODjango administration module
 
 # Django imports
 from django.contrib import admin
-from django.contrib.contenttypes.generic import GenericTabularInline
+from django.contrib.contenttypes.admin import GenericTabularInline
 from django.contrib.contenttypes.models import ContentType
-from django.contrib.admin.util import flatten_fieldsets
+from django.contrib.admin.utils import flatten_fieldsets
 
 # EVODjango imports
 from evodjango.forms.widgets import GenericCollectionWidget
