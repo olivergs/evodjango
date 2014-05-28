@@ -37,7 +37,7 @@ def simple_robots(req,options={}):
     except Exception,e:
         raise Http404('Error loading robots file: %s' % e)
     # Generate advertisement page
-    return HttpResponse(data,mimetype='text/plain')
+    return HttpResponse(data,content_type='text/plain')
 
 def process_form(req,template,formclass):
     """
