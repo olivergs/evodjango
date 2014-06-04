@@ -55,7 +55,7 @@ def get_client_ip(req):
     """
     # Public IP discovering
     if 'HTTP_X_FORWARDED_FOR' in req.META:
-        ip=req.META['HTTP_X_FORWARDED_FOR'].split(',')[-1].strip()
+        ip=req.META['HTTP_X_FORWARDED_FOR'].split(',')[0].strip()
     else:
         ip=req.META['REMOTE_ADDR']
     return ip
